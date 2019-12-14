@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Girassol&display=swap");
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,4 +11,38 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.card {
+  width: 25%;
+  margin: 10px auto;
+  font-family: "Girassol", cursive;
+}
+
+.color__toggler {
+  background: rosybrown;
+  border-radius: 50px;
+  border: 1px solid rosybrown;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggler {
+  background: whitesmoke;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.color-change {
+  background-color: skyblue;
 }
